@@ -9,9 +9,9 @@ class Rsync < Formula
 
   def patches
     %W[
-      https://gitweb.samba.org/?p=rsync-patches.git;a=blob_plain;f=fileflags.diff;hb=v3.1.0
-      https://gitweb.samba.org/?p=rsync-patches.git;a=blob_plain;f=crtimes.diff;hb=v3.1.0
-      https://gitweb.samba.org/?p=rsync-patches.git;a=blob_plain;f=hfs-compression.diff;hb=v3.1.0
+      https://git.samba.org/?p=rsync-patches.git;a=blob_plain;f=fileflags.diff;hb=v3.1.0
+      https://git.samba.org/?p=rsync-patches.git;a=blob_plain;f=crtimes.diff;hb=v3.1.0
+      https://git.samba.org/?p=rsync-patches.git;a=blob_plain;f=hfs-compression.diff;hb=v3.1.0
     ]
   end
 
